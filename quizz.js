@@ -52,7 +52,7 @@ function startQuiz() {
 
 function showNextQuestion() {
     resetState();
-    if (currentQuestionIndex < questions.length - 1) {
+    if (currentQuestionIndex < questions.length) {
         const question = questions[currentQuestionIndex];
         questionContainer.innerText = question.question;
         question.answers.forEach(answer => {
@@ -66,6 +66,7 @@ function showNextQuestion() {
         endQuiz();
     }
 }
+
 
 function resetState() {
     while (answerButtons.firstChild) {
