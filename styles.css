@@ -106,9 +106,17 @@ body::before {
     font-size: 18px;
     transition: background 0.3s; /* Add a smooth transition effect */
 }
+#answer-buttons button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background: linear-gradient(to bottom, #001f3f, #001f3f); /* Initial gradient */
+    transition: background 0.3s; /* Add a smooth transition effect */
+}
 
 #answer-buttons button:hover {
-    background: linear-gradient(to bottom, #001f3f, #0074cc); /* Navy to blue gradient on hover */
+    background: linear-gradient(to bottom, #001f3f, #4169e1); /* Navy to royal blue gradient on hover */
 }
+
 
 
