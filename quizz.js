@@ -10,7 +10,7 @@ const initialsInput = document.getElementById('initials');
 const submitScoreBtn = document.getElementById('submit-score');
 
 let currentQuestionIndex = 0;
-let time = 60;
+let time = 90;
 let timer;
 const questions = [
     {
@@ -112,7 +112,7 @@ submitScoreBtn.addEventListener('click', saveHighScore);
 function startQuiz() {
     startBtn.style.display = 'none';
     quizContainer.style.display = 'block';
-    timer = setInterval(updateTimer, 1000);
+    timer = setInterval(updateTimer, 1500);
     showNextQuestion();
 }
 
