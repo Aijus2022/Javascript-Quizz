@@ -91,16 +91,16 @@ body {
     margin-bottom: 20px;
 }
 
+/* Dark navy to royal blue background under answer text */
+#answer-buttons {
+    background: linear-gradient(to bottom, #001f3f, #0074cc);
+    border-radius: 10px;
+    padding: 20px;
 }
 
-/* Apply Neon Effect to Quiz Title */
-#quiz h2 {
-    color: #e60073;
-    font-size: 36px;
-    margin-bottom: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073;
+/* Make answer text boxes bigger */
+#answer-buttons button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
 }
