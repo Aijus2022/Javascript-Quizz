@@ -36,7 +36,7 @@ No installation is required to use the Coding Quiz App. Simply open the `index.h
 5. At the end of the quiz, enter your initials and click "Submit" to record your score.
 
 ## Screenshots
-![Start Screen](screenshots/start-screen.png)
+![Start Screen](Screenshot 2023-12-29 182332.png)
 ![Quiz Screen](screenshots/quiz-screen.png)
 ![End Screen](screenshots/end-screen.png)
 
