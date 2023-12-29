@@ -37,7 +37,7 @@ No installation is required to use the Coding Quiz App. Simply open the `index.h
 
 ## Screenshots
 ![Start Screen](Screenshot 2023-12-29 182332.png)
-![Quiz Screen](screenshots/quiz-screen.png)
+![Quiz Screen](Screenshot 2023-12-29 182419.png)
 ![End Screen](screenshots/end-screen.png)
 
 ## Contributing
