@@ -1,5 +1,6 @@
-# Javascript Quiz App
+# Javascript-Quizz-App
 Github Repository:https://github.com/Aijus2022/Javascript-Quizz-App
+Deployed website:https://github.com/Aijus2022/Javascript-Quizz-App
 
 ## Table of Contents
 - [Description](#description)
@@ -12,7 +13,7 @@ Github Repository:https://github.com/Aijus2022/Javascript-Quizz-App
 - [License](#license)
 
 ## Description
-TheJavascript Quiz App is a web-based quiz application that allows users to test their coding knowledge through a series of questions. The app is designed to be interactive, challenging, and educational. It features a responsive design and an intuitive user interface.
+The Javascript-Quizz-App is a web-based quiz application that allows users to test their coding knowledge through a series of questions. The app is designed to be interactive, challenging, and educational. It features a responsive design and an intuitive user interface.
 
 ## Features
 - Multiple-choice questions on Javascript concepts
@@ -21,13 +22,13 @@ TheJavascript Quiz App is a web-based quiz application that allows users to test
 - User-friendly interface with smooth transitions
 
 ## Usage
-To use the Javascript Quiz App, follow these steps:
+To use the Javascript-Quizz-App, follow these steps:
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in a web browser.
 3. Click on "Start Quiz" to begin the coding challenge.
 
 ## Installation
-No installation is required to use the Javascript Quiz App. Simply open the `index.html` file in a web browser.
+No installation is required to use the Javascript-Quizz-App. Simply open the `index.html` file in a web browser.
 
 ## How to Play
 1. Click on "Start Quiz" to initiate the quiz.
@@ -43,7 +44,7 @@ No installation is required to use the Javascript Quiz App. Simply open the `ind
 
 ## Contributing
 If you would like to contribute to the development of the Javascript Quiz App, please follow these steps:
-1. Fork the repository:https://github.com/Aijus2022/Javascript-Quizz
+1. Fork the repository:https://github.com/Aijus2022/Javascript-Quizz-App
 2. Create a new branch for your feature (`git checkout -b feature/your-feature`).
 3. Commit your changes (`git commit -m 'Add a new feature'`).
 4. Push to the branch (`git push origin feature/your-feature`).
