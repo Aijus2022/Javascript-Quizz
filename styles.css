@@ -2,10 +2,11 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+    color: #fff; /* Set text color to white */
 }
 
 .quiz-container {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.7); /* Darker background */
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -13,11 +14,15 @@ body {
     text-align: center;
 }
 
-#start-screen h1,
-#quiz h2,
-#end-screen h1,
-#end-screen p {
-    color: #333;
+#quiz h2 {
+    color: #e60073;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073;
 }
 
 #start-btn,
@@ -43,7 +48,7 @@ body {
 
 #timer {
     font-size: 18px;
-    color: #555;
+    color: #fff; /* Set text color to white */
 }
 
 #initials {
@@ -51,6 +56,8 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-top: 10px;
+    background-color: #fff; /* Set background color to white */
+    color: #000; /* Set text color to black for better readability */
 }
 
 /* Neon Text Effect */
@@ -62,6 +69,28 @@ body {
 .neon-border {
     border: 2px solid #e60073;
     box-shadow: 0 0 10px #e60073;
+}
+
+/* Apply Neon Effect to Quiz Title */
+#quiz h2 {
+    color: #e60073;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073;
+}
+
+/* Increase size of quiz question boxes */
+#question-container {
+    padding: 30px;
+    border: 2px solid #e60073;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
 }
 
 /* Apply Neon Effect to Quiz Title */
