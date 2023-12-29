@@ -1,6 +1,6 @@
 # Javascript-Quizz-App
 Github Repository:https://github.com/Aijus2022/Javascript-Quizz-App
-Deployed website:https://github.com/Aijus2022/Javascript-Quizz-App
+Deployed website:[https://github.com/Aijus2022/Javascript-Quizz-App](https://aijus2022.github.io/Javascript-Quizz-App/)
 
 ## Table of Contents
 - [Description](#description)
