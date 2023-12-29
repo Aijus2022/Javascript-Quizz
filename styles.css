@@ -169,10 +169,19 @@ body::before {
 }
 
 footer {
-    background: linear-gradient(to right, navy, #001f3f); /* Adjust the colors as needed */
+   footer {
+    background: linear-gradient(to right, navy, #001f3f); 
     color: white;
     text-align: center;
     padding: 20px;
+    margin-bottom: 0; /* Push the footer to the bottom */
+}
+
+/* Additional styles for better visibility and aesthetics */
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
 }
 
 /* Additional styles for better visibility and aesthetics */
