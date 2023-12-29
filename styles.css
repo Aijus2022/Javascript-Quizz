@@ -1,80 +1,77 @@
 body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
 }
 
 .quiz-container {
-    max-width: 800px;
-    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1, h2, p {
-    margin: 0;
-}
-
-#start-screen, #end-screen {
+    margin: 20px;
     text-align: center;
 }
 
-#quiz {
-    display: none;
+#start-screen h1,
+#quiz h2,
+#end-screen h1,
+#end-screen p {
+    color: #333;
 }
 
-button {
-    background-color: #4caf50;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 16px;
+#start-btn,
+#submit-score,
+#answer-buttons button {
+    background: linear-gradient(to right, #ff6e7f, #bfe9ff);
     border: none;
-    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
     cursor: pointer;
-    margin: 5px;
 }
 
-button:hover {
-    background-color: #45a049;
-}
-
-.btn-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.btn {
-    margin: 5px;
-}
-
-#feedback {
-    margin-top: 10px;
-    font-weight: bold;
+#start-btn:hover,
+#submit-score:hover,
+#answer-buttons button:hover {
+    filter: brightness(1.2);
 }
 
 #timer {
+    font-size: 18px;
+    color: #555;
+}
+
+#initials {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     margin-top: 10px;
 }
 
-#end-screen {
-    display: none;
-    flex-direction: column;
+/* Neon Text Effect */
+.neon {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073;
 }
 
-input {
-    margin: 10px 0;
-    padding: 5px;
-    width: 100%;
+/* Neon Border Effect */
+.neon-border {
+    border: 2px solid #e60073;
+    box-shadow: 0 0 10px #e60073;
 }
 
-#submit-score {
-    background-color: #007bff;
-}
-
-#submit-score:hover {
-    background-color: #0056b3;
+/* Apply Neon Effect to Quiz Title */
+#quiz h2 {
+    color: #e60073;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073;
 }
