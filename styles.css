@@ -113,6 +113,54 @@ body::before {
     background: linear-gradient(to bottom, #001f3f, #001f3f); /* Initial gradient */
     transition: background 0.3s; /* Add a smooth transition effect */
 }
+.end-screen-content {
+    text-align: center;
+}
+
+.end-screen-item {
+    margin-bottom: 20px;
+}
+
+#end-screen h1 {
+    font-size: 36px;
+    color: #e60073; /* Customize the color as needed */
+}
+
+#end-screen p {
+    font-size: 18px;
+    color: #333; /* Customize the color as needed */
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333; /* Customize the color as needed */
+}
+
+.input-container input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#submit-score {
+    background: linear-gradient(to right, #ff6e7f, #bfe9ff);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#submit-score:hover {
+    filter: brightness(1.2);
+}
+
 
 #answer-buttons button:hover {
     background: linear-gradient(to bottom, #001f3f, #4169e1); /* Navy to royal blue gradient on hover */
