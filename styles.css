@@ -26,8 +26,8 @@ body::before {
 }
 
 #quiz h2 {
-    color: #228B22; /* Royal Green */
-    font-size: 20px;
+    color: #191970; /* Navy */
+    font-size: 22px;
     margin-bottom: 20px;
     font-weight: bold;
     text-transform: uppercase;
